@@ -4,7 +4,7 @@ contract Greeter {
   string public greeting;
 
   constructor() public {
-    greeting = 'Hello from the contract deployed by Anthony O Brien with student number 10525660';
+    greeting = 'Hello, welcome to the contract deployed by Anthony O Brien, student number 10525660';
   }
 
   function setGreeting(string memory _greeting) public {
